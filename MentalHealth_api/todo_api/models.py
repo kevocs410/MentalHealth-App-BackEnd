@@ -6,3 +6,4 @@ class Todo(models.Model):
     rating=models.IntegerField()
     workout=models.CharField(max_length=32)
     time=models.CharField(max_length=32)
+    img=models.CharField(max_length=600)
