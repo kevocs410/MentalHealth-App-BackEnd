@@ -16,8 +16,8 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('rating', models.IntegerField()),
-                ('workout', models.CharField(max_length=32)),
-                ('time', models.CharField(max_length=32)),
+                ('workout', models.CharField(max_length=200)),
+                ('time', models.CharField(max_length=200)),
                 ('img', models.CharField(max_length=600)),
             ],
         ),
