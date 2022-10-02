@@ -88,7 +88,7 @@ DATABASES = {
         'NAME': 'mentalhealth_api',
         'USER': '',
         'PASSWORD': '',
-        'HOST': '127.0.0.1'
+        'HOST': 'localhost'
 
     }
 }
