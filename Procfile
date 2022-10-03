@@ -1,1 +1,1 @@
-web:gunicorn MentalHealth_api.wsgi
+web:gunicorn django_rest_api.wsgi
